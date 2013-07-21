@@ -24,8 +24,8 @@ Installation script will:
 Copy and paste this into your shell to install everything.
 
 ```
-curl https://gist.github.com/delphian/6048720/download | tar -xz --strip-components=1 && chmod u+x \
-./install-vagrant-drupal-7.sh && ./install-vagrant-drupal-7.sh
+curl https://gist.github.com/delphian/6048720/download | tar -xz --strip-components=1 \
+&& chmod u+x ./install.sh && ./install.sh
 ```
 
 #### Usage ####
