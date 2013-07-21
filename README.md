@@ -21,7 +21,7 @@ Installation script will:
 
 #### Installation ####
 
-Copy and paste this into your shell to install everything.
+Copy and paste this [installation script](https://gist.github.com/delphian/6048720) into your shell to install everything.
 
 ```
 curl https://gist.github.com/delphian/6048720/download | tar -xz --strip-components=1 \
