@@ -6,8 +6,8 @@ of everything, and when finished http://local.drupal.org should be accessable fo
 
 Installation script will:
 
- * Virtual box will be created at 33.33.33.36
- * Hosts file will be modified to map local.drupal.org to 33.33.33.36
+ * Create a virtual box on 33.33.33.36
+ * Modify hosts file mapping local.drupal.org to 33.33.33.36
  * Create the drupal database.
  * Install drupal.
  * Install and enable modules: devel.
