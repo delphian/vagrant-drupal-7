@@ -14,7 +14,7 @@ configuration and puppet scripts.
 
 #### Installation ####
 
-Copy and paste this [installation script](https://gist.github.com/delphian/6048720) into your shell to install everything.
+Copy and paste this into your shell to install everything.
 
 ```
 curl -s https://raw.github.com/delphian/vagrant-drupal-7/master/scripts/bootstrap.sh | bash
