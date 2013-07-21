@@ -24,8 +24,7 @@ Installation script will:
 Copy and paste this [installation script](https://gist.github.com/delphian/6048720) into your shell to install everything.
 
 ```
-curl https://gist.github.com/delphian/6048720/download | tar -xz --strip-components=1 \
-&& chmod u+x ./install.sh && ./install.sh
+curl -s https://raw.github.com/delphian/vagrant-drupal-7/master/scripts/bootstrap.sh | bash
 ```
 
 #### Usage ####
