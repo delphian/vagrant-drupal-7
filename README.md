@@ -6,15 +6,6 @@ of everything, and when finished http://local.drupal.org should be accessable fo
 use of the submodule [Vagrant](https://github.com/delphian/vagrant) which contains all the actual vagrant
 configuration and puppet scripts.
 
-Installation script will:
-
- * Create a virtual box on 33.33.33.36
- * Modify hosts file mapping local.drupal.org to 33.33.33.36
- * Create the drupal database.
- * Install drupal.
- * Install and enable modules: devel.
- * Disable modules: overlay.
-
 #### Prerequisites ####
 
 1. Download and install install virtualbox for [Windows](http://download.virtualbox.org/virtualbox/4.2.6/VirtualBox-4.2.6-82870-Win.exe) or [Mac](http://download.virtualbox.org/virtualbox/4.2.6/VirtualBox-4.2.6-82870-OSX.dmg).
@@ -28,6 +19,15 @@ Copy and paste this [installation script](https://gist.github.com/delphian/60487
 ```
 curl -s https://raw.github.com/delphian/vagrant-drupal-7/master/scripts/bootstrap.sh | bash
 ```
+
+Installation script will:
+
+ * Create a virtual box on 33.33.33.36
+ * Modify hosts file mapping local.drupal.org to 33.33.33.36
+ * Create the drupal database.
+ * Install drupal.
+ * Install and enable modules: devel.
+ * Disable modules: overlay.
 
 #### Usage ####
 
