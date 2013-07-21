@@ -1,10 +1,13 @@
 Vagrant Drupal
 ==============
 
-Drupal specific vagrant configured virtual box. Create a virtual box configured on 33.33.33.36 and
-on the domain local.drupal.org. The installation script will automatically try to add the domain
-to the local hosts file. After the box boots the script will shell in and:
+Drupal specific vagrant configured virtual box. The single command line installation script will take care
+of everything, and when finished http://local.drupal.org should be accessable for review.
 
+Installation script will:
+
+ * Virtual box will be created at 33.33.33.36
+ * Hosts file will be modified to map local.drupal.org to 33.33.33.36
  * Create the drupal database.
  * Install drupal.
  * Install and enable modules: devel.
@@ -24,3 +27,7 @@ Copy and paste this into your shell to install everything.
 curl https://gist.github.com/delphian/6048720/download | tar -xz --strip-components=1 && chmod u+x \
 ./install-vagrant-drupal-d7.sh && ./install-vagrant-drupal-d7.sh
 ```
+
+#### Usage ####
+
+After installation script is finished open a browser and navigate to http://local.drupal.org
