@@ -22,7 +22,7 @@ curl -s https://raw.github.com/delphian/vagrant-drupal-7/master/scripts/bootstra
 
 Or, same thing but with the google url shortener:
 ```
-curl -s http://goo.gl/0M4EKK | bash
+curl -L -s http://goo.gl/0M4EKK | bash
 ```
 
 Installation script will:
