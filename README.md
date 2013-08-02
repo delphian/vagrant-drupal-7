@@ -1,7 +1,7 @@
-Vagrant Drupal
+Vagrant Drupal 7
 ==============
 
-Drupal specific vagrant configured virtual box. The single command line installation script will take care
+Drupal 7 specific vagrant configured virtual box. The single command line installation script will take care
 of everything, and when finished http://local.drupal.org should be accessable for review. This repo makes
 use of the submodule [Vagrant](https://github.com/delphian/vagrant) which contains all the actual vagrant
 configuration and puppet scripts.
