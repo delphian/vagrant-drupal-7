@@ -17,11 +17,6 @@ configuration and puppet scripts.
 Copy and paste this into your shell to install everything:
 
 ```
-curl -s https://raw.github.com/delphian/vagrant-drupal-7/master/scripts/bootstrap.sh | bash
-```
-
-Or, same thing but with the google url shortener:
-```
 curl -L -s http://goo.gl/0M4EKK | bash
 ```
 
