@@ -1,5 +1,6 @@
 #!/bin/bash
-# This script will be executed inside the virtual machine via submodule vagrant/install.sh
+# This script will be executed inside the virtual machine via submodule 
+# vagrant/scripts/install.sh
 
 # Create the drupal database.
 mysql -h localhost -uroot -proot -e "create database drupal;"
