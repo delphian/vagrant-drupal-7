@@ -1,14 +1,14 @@
 Vagrant Drupal 7
 ==============
 
-Drupal 7 specific vagrant configured virtual box. The single command line installation script will take care
+Drupal 7 specific vagrant configured VirtualBox. The single command line installation script will take care
 of everything, and when finished http://local.drupal.org should be accessable for review. This repo makes
 use of the submodule [Vagrant](https://github.com/delphian/vagrant) which contains all the actual vagrant
 configuration and puppet scripts.
 
 #### Prerequisites ####
 
-1. Download and install install virtualbox for [Windows](http://download.virtualbox.org/virtualbox/4.2.6/VirtualBox-4.2.6-82870-Win.exe) or [Mac](http://download.virtualbox.org/virtualbox/4.2.6/VirtualBox-4.2.6-82870-OSX.dmg).
+1. Download and install install VirtualBox for [Windows](http://download.virtualbox.org/virtualbox/4.2.6/VirtualBox-4.2.6-82870-Win.exe) or [Mac](http://download.virtualbox.org/virtualbox/4.2.6/VirtualBox-4.2.6-82870-OSX.dmg).
 2. Download and install vagrant for [Windows](http://files.vagrantup.com/packages/476b19a9e5f499b5d0b9d4aba5c0b16ebe434311/Vagrant.msi) or [Mac](http://files.vagrantup.com/packages/476b19a9e5f499b5d0b9d4aba5c0b16ebe434311/Vagrant.dmg)
 3. If you are using Windows please download and install [Cygwin](http://cygwin.com/setup.exe). See [Cygwin Setup](http://cygwin.com/cygwin-ug-net/setup-net.html#setup-packages) for help. Make sure to install ssh and git packages.
 
