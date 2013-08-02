@@ -10,6 +10,6 @@ sudo drush dl -v -d --destination=".." --drupal-project-rename="$(basename `pwd`
 # Install drupal.
 drush site-install standard --account-name=admin --account-pass=admin --db-url=mysql://root:root@localhost/drupal -y
 # Download extra contrib modules and disable annoying core modules.
-drush dl devel, module_filter
-drush en devel, module_filter -y
-drush dis overlay -y
+drush dl devel, module_filter, admin_menu
+drush en devel, module_filter, admin_menu -y
+drush dis overlay, toolbar -y
