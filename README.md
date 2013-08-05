@@ -26,9 +26,15 @@ Installation script will:
  * Modify hosts file mapping local.drupal.org to 33.33.33.36
  * Create the drupal database.
  * Install drupal.
- * Install and enable modules: devel.
- * Disable modules: overlay.
+ * Install and enable modules: devel, module\_filter, admin\_menu.
+ * Disable modules: overlay, toolbar.
 
 #### Usage ####
 
-After installation script is finished open a browser and navigate to http://local.drupal.org
+After installation script is finished open a browser and navigate to http://local.drupal.org 
+(If Chrome is present on Mac OSX the script will attempt to automtically open the browser)
+
+#### Reference ####
+
+* [Drush Make File](https://gist.github.com/delphian/6027415)
+* [Drupal DB & Core Install](https://gist.github.com/delphian/6043424)
