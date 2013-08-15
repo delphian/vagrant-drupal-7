@@ -34,7 +34,7 @@ Installation script will:
 After installation script is finished open a browser and navigate to http://local.drupal.org 
 (If Chrome is present on Mac OSX the script will attempt to automtically open the browser)
 
-#### Reference ####
+#### Help and Support ####
 
-* [Drush Make File](https://gist.github.com/delphian/6027415)
-* [Drupal DB & Core Install](https://gist.github.com/delphian/6043424)
+Feel free to contact me bryan.hazelbaker@gmail.com with any questions. Submit all bug reports or feature requests to the [Issue Queue](https://github.com/delphian/vagrant-drupal-7/issues). Please see the 
+[Wiki](https://github.com/delphian/vagrant-drupal-7/wiki) for more information.
