@@ -22,8 +22,8 @@ curl -L -s http://goo.gl/0M4EKK | bash
 
 Installation script will:
 
- * Create a virtual box on 33.33.33.36
- * Modify hosts file mapping local.drupal.org to 33.33.33.36
+ * Create a virtual box on 33.33.33.67
+ * Modify hosts file mapping local.drupal.org to 33.33.33.67
  * Create the drupal database.
  * Install drupal.
  * Install and enable modules: devel, module\_filter, admin\_menu.
