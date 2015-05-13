@@ -32,7 +32,7 @@ Installation script will:
 #### Usage ####
 
 After installation script is finished open a browser and navigate to http://local.drupal.org 
-(If Chrome is present on Mac OSX the script will attempt to automtically open the browser)
+(If Chrome is present on Mac OSX the script will attempt to automatically open the browser)
 
 #### Help and Support ####
 
